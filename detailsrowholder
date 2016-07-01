@@ -1,0 +1,32 @@
+package com.tcs.sqlitedatabaseexample;
+
+/**
+ * Created by 1256010 on 6/30/2016.
+ */
+public class DetailsRowHolder {
+
+    private String mMobile;
+    private String mDate;
+
+
+    public DetailsRowHolder(String mMobile, String mDate) {
+        this.mMobile = mMobile;
+        this.mDate = mDate;
+    }
+
+    public String getmMobile() {
+        return mMobile;
+    }
+
+    public void setmMobile(String mMobile) {
+        this.mMobile = mMobile;
+    }
+
+    public String getmDate() {
+        return mDate;
+    }
+
+    public void setmDate(String mDate) {
+        this.mDate = mDate;
+    }
+}
